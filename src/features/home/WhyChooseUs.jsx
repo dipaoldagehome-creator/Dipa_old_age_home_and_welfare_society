@@ -6,7 +6,7 @@ import { SectionHeader } from '../../components/common/SectionHeader';
 import { staggerContainer, fadeUp } from '../../animations/variants';
 
 const FEATURES = [
-  { icon: Clock, title: "24x7 Care & Support", desc: "Assistance ensuring any of our members is ever left unattended in their time of need.", className: "lg:col-span-1" },
+  { icon: Clock, title: "24x7 Care & Support", desc: "Assistance ensuring any of our members are ever left unattended in their time of need.", className: "lg:col-span-1" },
   { icon: Stethoscope, title: "Medical Support", desc: "Oncall doctors, regular health check-ups, and immediate emergency response protocols.", className: "lg:col-span-1" },
   { icon: Utensils, title: "Nutritious Diet", desc: "Customized, highly nutritious, and hygienic meals prepared by expert dieticians tailored to senior health.", className: "lg:col-span-1" },
   { icon: Sparkles, title: "Clean Environment", desc: "Daily deep cleaning and sanitization routines maintaining a hospital-grade sterile yet warm environment.", className: "lg:col-span-1" },

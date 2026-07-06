@@ -63,16 +63,11 @@ export const FounderMessage = () => {
                 "When we started Dipa Old Age Home & Welfare Society, our vision was simple: to create a sanctuary where our elders are not just looked after, but truly celebrated. 
               </p>
               <p>
-                We understand the anxiety families face when they can no longer provide round-the-clock medical care at home. That is why we built a facility that combines state-of-the-art medical infrastructure with the warmth, compassion, and respect of a traditional family home.
+                We understand the anxiety families face when they can no longer provide round-the-clock medical care at home. That is why we built a facility that combines state-of-the-art Elder care infrastructure with the warmth, compassion, and respect of a traditional family home.
               </p>
               <p className="font-medium text-foreground italic border-l-4 border-secondary-500 pl-4 py-1">
                 Every resident is a grandparent to us. Their stories, their smiles, and their dignity are our greatest treasures."
               </p>
-            </div>
-
-            <div className="mt-10 pt-8 border-t border-border">
-              <h4 className="text-2xl font-serif font-bold text-foreground">Dr. A. Sharma</h4>
-              <p className="text-primary-500 font-medium text-sm mt-1">Founder & Chief Medical Director</p>
             </div>
           </motion.div>
         </div>

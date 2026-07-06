@@ -3,55 +3,55 @@ import { useNavigate } from 'react-router-dom';
 import { Activity, Apple, Users, BookOpen, Music, Accessibility } from 'lucide-react';
 import { FacilityCard } from '../../components/ui/FacilityCard';
 
-import photo1 from '../../assets/GalleryImages/photo1.jpeg';
-import photo2 from '../../assets/GalleryImages/photo2.jpeg';
-import photo4 from '../../assets/GalleryImages/photo4.jpeg';
-import photo5 from '../../assets/GalleryImages/photo5.jpeg';
-import photo6 from '../../assets/GalleryImages/photo6.jpeg';
-import photo7 from '../../assets/GalleryImages/photo7.jpeg';
+import ambulanceImg from '../../assets/services/ambulance_service_ind.png';
+import dietaryImg from '../../assets/services/dietary_nutrition_ind.png';
+import physiotherapyImg from '../../assets/services/physiotherapy_center_ind.png';
+import libraryImg from '../../assets/services/library_room_ind.png';
+import recreationImg from '../../assets/services/recreation_arts_ind.png';
+import groundsImg from '../../assets/services/accessible_grounds_ind.png';
 
 const FACILITIES = [
   {
     icon: Activity,
     title: "24/7 Ambulance Service",
     slug: "ambulance-service",
-    description: "Round-the-clock emergency transport service equipped with advanced life support systems for immediate medical attention.",
-    image: photo1,
+    description: "Round-the-clock emergency transport service equipped systems for immediate medical attention.",
+    image: ambulanceImg,
   },
   {
     icon: Apple,
     title: "Dietary & Nutrition",
     slug: "dietary-nutrition",
     description: "Personalized meal plans created by clinical nutritionists, prepared in our strictly sanitized, hygienic kitchens.",
-    image: photo2,
+    image: dietaryImg,
   },
   {
     icon: Users,
     title: "Physiotherapy Center",
     slug: "physiotherapy",
     description: "Daily guided exercises, mobility training, and pain management by licensed geriatric physiotherapists.",
-    image: photo4,
+    image: physiotherapyImg,
   },
   {
     icon: BookOpen,
     title: "Library & Reading Room",
     slug: "library",
     description: "A quiet, comfortable space filled with classic literature, daily newspapers, and large-print books.",
-    image: photo5,
+    image: libraryImg,
   },
   {
     icon: Music,
     title: "Recreation & Arts",
     slug: "recreation",
     description: "Music therapy, art classes, and group activities designed to keep the mind sharp and spirits high.",
-    image: photo6,
+    image: recreationImg,
   },
   {
     icon: Accessibility,
     title: "Wheelchair Accessible Grounds",
     slug: "accessible-grounds",
     description: "Beautifully landscaped, anti-slip gardens designed specifically for safe, easy walking and wheelchair use.",
-    image: photo7,
+    image: groundsImg,
   }
 ];
 

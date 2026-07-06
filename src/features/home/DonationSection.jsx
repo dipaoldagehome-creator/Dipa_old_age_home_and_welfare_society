@@ -4,7 +4,6 @@ import { Heart, Phone, HandHeart, QrCode, Building, Wallet, CheckCircle2 } from 
 import { Button } from '../../components/ui/Button';
 
 const BENEFITS = [
-  "Provides life-saving medical supplies.",
   "Ensures nutritious daily meals.",
   "Maintains a sterile, safe environment.",
   "Supports recreational therapies."
@@ -15,16 +14,16 @@ export const DonationSection = () => {
     <section id="donate" className="py-16 md:py-24 relative overflow-hidden bg-primary-900 text-white">
       {/* Animated Background Gradients using Framer Motion */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <motion.div 
-          animate={{ 
+        <motion.div
+          animate={{
             scale: [1, 1.2, 1],
             opacity: [0.3, 0.5, 0.3]
           }}
           transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
           className="absolute top-0 left-0 w-72 h-72 md:w-[800px] md:h-[800px] bg-primary-600/40 rounded-full blur-[120px] -translate-x-1/4 -translate-y-1/4"
         />
-        <motion.div 
-          animate={{ 
+        <motion.div
+          animate={{
             scale: [1, 1.5, 1],
             opacity: [0.1, 0.3, 0.1]
           }}
@@ -35,7 +34,7 @@ export const DonationSection = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-8 items-center">
-          
+
           {/* Left Column: Appeal & Benefits */}
           <div>
             <motion.div
@@ -47,8 +46,8 @@ export const DonationSection = () => {
               <Heart className="w-4 h-4 text-secondary-400" fill="currentColor" />
               Support Our Cause
             </motion.div>
-            
-            <motion.h2 
+
+            <motion.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
@@ -57,8 +56,8 @@ export const DonationSection = () => {
             >
               Make a <span className="text-secondary-400">Difference</span> Today.
             </motion.h2>
-            
-            <motion.p 
+
+            <motion.p
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
@@ -68,7 +67,7 @@ export const DonationSection = () => {
               Your generous contribution directly helps us provide continuous medical care, nutritious meals, and a loving home for seniors who have nowhere else to turn.
             </motion.p>
 
-            <motion.ul 
+            <motion.ul
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
@@ -83,7 +82,7 @@ export const DonationSection = () => {
               ))}
             </motion.ul>
 
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
@@ -111,9 +110,9 @@ export const DonationSection = () => {
           >
             {/* Luxury Glass/Solid Card */}
             <div className="bg-surface text-foreground rounded-3xl p-6 md:p-8 md:p-10 shadow-2xl relative overflow-hidden">
-              
+
               <h3 className="text-2xl font-serif font-bold mb-8 text-center text-primary-950">Donation Details</h3>
-              
+
               <div className="space-y-6">
                 {/* Bank Details */}
                 <div className="bg-surface-muted p-6 rounded-2xl border border-border group hover:border-primary-200 transition-colors">
@@ -150,11 +149,11 @@ export const DonationSection = () => {
                     </div>
                     <p className="text-sm font-mono text-foreground-muted pl-14">dipaoldagehome@upi</p>
                   </div>
-                  
+
                   {/* QR Code Placeholder */}
                   <div className="w-24 h-24 bg-white border border-border rounded-xl flex flex-col items-center justify-center p-2 shadow-sm">
-                     <QrCode className="w-10 h-10 text-primary-900 mb-1" />
-                     <span className="text-[10px] font-bold text-primary-900 tracking-wider">SCAN TO PAY</span>
+                    <QrCode className="w-10 h-10 text-primary-900 mb-1" />
+                    <span className="text-[10px] font-bold text-primary-900 tracking-wider">SCAN TO PAY</span>
                   </div>
                 </div>
               </div>

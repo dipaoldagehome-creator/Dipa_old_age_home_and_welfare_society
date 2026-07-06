@@ -7,27 +7,26 @@ import { PageTransition } from '../components/common/PageTransition';
 import { Button } from '../components/ui/Button';
 
 // Image imports
-import photo1 from '../assets/GalleryImages/photo1.jpeg';
-import photo2 from '../assets/GalleryImages/photo2.jpeg';
-import photo4 from '../assets/GalleryImages/photo4.jpeg';
-import photo5 from '../assets/GalleryImages/photo5.jpeg';
-import photo6 from '../assets/GalleryImages/photo6.jpeg';
-import photo7 from '../assets/GalleryImages/photo7.jpeg';
+import ambulanceImg from '../assets/services/ambulance_service_ind.png';
+import dietaryImg from '../assets/services/dietary_nutrition_ind.png';
+import physiotherapyImg from '../assets/services/physiotherapy_center_ind.png';
+import libraryImg from '../assets/services/library_room_ind.png';
+import recreationImg from '../assets/services/recreation_arts_ind.png';
+import groundsImg from '../assets/services/accessible_grounds_ind.png';
 
 // Comprehensive details for each service
 const SERVICES_DATA = {
   "ambulance-service": {
     title: "24/7 Ambulance Service",
-    shortDesc: "Round-the-clock emergency transport service equipped with advanced life support.",
-    image: photo1,
+    shortDesc: "Round-the-clock emergency transport service equipped.",
+    image: ambulanceImg,
     content: [
       "Our 24/7 Ambulance Service provides immediate medical transportation for our residents in times of emergency. Recognizing that every second counts, we maintain a fleet of fully-equipped ambulances on standby, parked directly on the premises.",
-      "Each ambulance is outfitted with Advanced Life Support (ALS) systems, including oxygen cylinders, defibrillators, cardiac monitors, and emergency medical kits. This ensures that critical care begins the moment our team reaches the resident.",
+      "Each ambulance is outfitted systems, including oxygen cylinders, defibrillators, cardiac monitors, and emergency medical kits. This ensures that critical care begins the moment our team reaches the resident.",
       "Our trained paramedics and emergency medical technicians (EMTs) are available around the clock to provide pre-hospital care and ensure a safe, rapid transfer to our partnered super-specialty hospitals when required."
     ],
     features: [
       "On-campus standby for immediate response",
-      "Advanced Life Support (ALS) equipment",
       "Trained paramedics and EMTs on duty",
       "Direct tie-ups with leading super-specialty hospitals"
     ]
@@ -35,7 +34,7 @@ const SERVICES_DATA = {
   "dietary-nutrition": {
     title: "Dietary & Nutrition",
     shortDesc: "Personalized, wholesome meal plans tailored to individual health requirements.",
-    image: photo2,
+    image: dietaryImg,
     content: [
       "Proper nutrition is a cornerstone of senior health and vitality. At Dipa Old Age Home, our culinary and nutrition teams work closely to design meals that are both delicious and nutritionally optimized for geriatric needs.",
       "Upon admission, each resident undergoes a comprehensive dietary assessment by our clinical nutritionists. We cater to specific medical conditions such as diabetes, hypertension, renal issues, and food allergies, ensuring every meal supports their treatment plan.",
@@ -51,7 +50,7 @@ const SERVICES_DATA = {
   "physiotherapy": {
     title: "Physiotherapy Center",
     shortDesc: "Comprehensive physical therapy to maintain mobility, strength, and pain relief.",
-    image: photo4,
+    image: physiotherapyImg,
     content: [
       "Maintaining mobility and independence is crucial for a high quality of life in later years. Our dedicated Physiotherapy Center is fully equipped with modern rehabilitative apparatus specifically chosen for geriatric care.",
       "Our licensed physiotherapists conduct daily sessions focusing on pain management, joint flexibility, muscle strengthening, and balance training to prevent falls. We treat chronic conditions like arthritis, osteoporosis, and post-stroke rehabilitation.",
@@ -67,7 +66,7 @@ const SERVICES_DATA = {
   "library": {
     title: "Library & Reading Room",
     shortDesc: "A serene space for literature lovers to relax, read, and engage their minds.",
-    image: photo5,
+    image: libraryImg,
     content: [
       "Our Library & Reading Room is a quiet sanctuary for intellectual stimulation and relaxation. We believe that a sharp, engaged mind is key to a fulfilling life, which is why we offer a diverse and constantly updated collection of reading materials.",
       "The library features classic literature, spiritual texts, biographies, and regional fiction. For our visually impaired residents, we stock large-print books and audiobooks. Daily regional and national newspapers are provided to keep everyone connected with the world.",
@@ -83,7 +82,7 @@ const SERVICES_DATA = {
   "recreation": {
     title: "Recreation & Arts",
     shortDesc: "Engaging group activities, music, and art therapy to lift spirits and build community.",
-    image: photo6,
+    image: recreationImg,
     content: [
       "Life at Dipa Old Age Home is vibrant and joyful, thanks to our robust Recreation & Arts program. We understand that emotional and social well-being is just as important as physical health.",
       "Our residents enjoy a wide array of activities including music therapy, singing sessions, indoor games (like chess, carrom, and bingo), and art classes. These activities are carefully designed to improve cognitive function, reduce anxiety, and foster a strong sense of community.",
@@ -99,7 +98,7 @@ const SERVICES_DATA = {
   "accessible-grounds": {
     title: "Wheelchair Accessible Grounds",
     shortDesc: "Beautiful, safe, and barrier-free outdoor spaces for peaceful evening walks.",
-    image: photo7,
+    image: groundsImg,
     content: [
       "Nature has a profoundly calming effect on the human mind. Our campus boasts beautifully landscaped gardens that provide a breath of fresh air and a serene environment for all our residents.",
       "Safety is our top priority. The entire outdoor area is designed with barrier-free, anti-slip pathways that are wide enough for easy wheelchair maneuverability. Ramps with gentle gradients connect all outdoor spaces seamlessly.",

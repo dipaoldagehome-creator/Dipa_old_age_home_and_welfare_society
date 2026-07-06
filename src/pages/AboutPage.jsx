@@ -19,7 +19,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-foreground mb-6">Our <span className="text-primary-500">Story.</span></h1>
           <p className="text-lg text-foreground-muted font-light max-w-2xl mx-auto">
-            Founded on the principles of compassion and dignity, we have been a sanctuary for seniors for over a decade.
+            Founded on the principles of compassion and dignity, we have been a sanctuary for seniors.
           </p>
         </div>
       </section>

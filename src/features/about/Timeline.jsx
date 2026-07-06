@@ -2,10 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const TIMELINE_DATA = [
-  { year: "2008", title: "The Foundation", desc: "Started as a small 10-bed facility with a single doctor and immense passion for elder care." },
-  { year: "2013", title: "Medical Wing Expansion", desc: "Added 24/7 ICU-equivalent monitoring units and specialized geriatric care equipment." },
-  { year: "2018", title: "Holistic Wellness Center", desc: "Integrated physiotherapy, yoga, and mental health counseling into daily routines." },
-  { year: "2024", title: "Award of Excellence", desc: "Recognized as the premier senior care facility in West Bengal for outstanding service." }
+  { year: "", title: "The Foundation", desc: "Started as a small 10-bed facility with a single doctor and immense passion for elder care." },
+  { year: "", title: "Medical Wing Expansion", desc: "Added 24/7 Doctors Available On Call and specialized geriatric care equipment." },
+  { year: "", title: "Holistic Wellness Center", desc: "Integrated physiotherapy, yoga, and mental health counseling into daily routines." },
+  { year: "", title: "Award of Excellence", desc: "Recognized as the premier senior care facility in West Bengal for outstanding service." }
 ];
 
 export const Timeline = () => {
