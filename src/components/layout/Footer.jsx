@@ -1,7 +1,6 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { 
-  MapPin, Phone, Mail, ArrowUp, Send, ChevronRight, Globe
+  MapPin, Phone, Mail, ArrowUp, Send, ChevronRight
 } from 'lucide-react';
 import dipaLogo from '../../assets/Dipa_Logo.png';
 
@@ -32,11 +31,15 @@ export default function Footer() {
           
           <div className="lg:col-span-4 space-y-8">
             <div>
-              <Link to="/" className="inline-block mb-6">
+              <Link 
+                to="/" 
+                className="inline-flex items-center justify-center w-28 h-28 sm:w-32 sm:h-32 bg-white rounded-2xl shadow-md overflow-hidden mb-6 hover:shadow-xl transition-all duration-300 hover:scale-[1.03] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary-400 group"
+                aria-label="Dipa Old Age Home"
+              >
                 <img 
                   src={dipaLogo} 
-                  alt="Dipa Old Age Home Logo" 
-                  className="h-30 w-auto object-contain brightness-0 invert opacity-90 hover:opacity-100 transition-opacity"
+                  alt="Dipa Old Age Home & Welfare Society Logo" 
+                  className="w-full h-full object-contain scale-[1.55] transition-transform duration-300 group-hover:scale-[1.62]"
                   loading="lazy"
                 />
               </Link>
