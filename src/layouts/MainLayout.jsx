@@ -13,8 +13,8 @@ const MainLayout = () => {
       {/* Luxury Navigation Component */}
       <Navbar />
 
-      {/* Main Content Area - pt-24 provides spacing behind the transparent fixed navbar */}
-      <main className="flex-1 w-full flex flex-col pt-24">
+      {/* Main Content Area - pt-20 on mobile, pt-24 on tablet/desktop to match fixed navbar */}
+      <main className="flex-1 w-full flex flex-col pt-20 sm:pt-24">
         <Outlet />
       </main>
 

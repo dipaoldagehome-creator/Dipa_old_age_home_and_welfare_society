@@ -22,7 +22,7 @@ export const FloatingContactButtons = () => {
   const whatsappUrl = `https://wa.me/919832270555?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20Dipa%20Old%20Age%20Home.`;
 
   return (
-    <div className="fixed bottom-6 right-4 md:right-6 z-50 flex flex-col gap-4">
+    <div className="fixed bottom-6 right-4 md:right-6 z-30 flex flex-col gap-4">
       <motion.a
         href={`mailto:${emailAddress}`}
         initial={{ opacity: 0, scale: 0 }}

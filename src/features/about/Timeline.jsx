@@ -2,10 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const TIMELINE_DATA = [
-  { year: "", title: "The Foundation", desc: "Started as a small 10-bed facility with a single doctor and immense passion for elder care." },
-  { year: "", title: "Medical Wing Expansion", desc: "Added 24/7 Doctors Available On Call and specialized geriatric care equipment." },
-  { year: "", title: "Holistic Wellness Center", desc: "Integrated physiotherapy, yoga, and mental health counseling into daily routines." },
-  { year: "", title: "Award of Excellence", desc: "Recognized as the premier senior care facility in West Bengal for outstanding service." }
+  { id: "foundation", year: "", title: "The Foundation", desc: "Started as a small 10-bed facility with a single doctor and immense passion for elder care." },
+  { id: "medical-expansion", year: "", title: "Medical Wing Expansion", desc: "Added 24/7 Doctors Available On Call and specialized geriatric care equipment." },
+  { id: "wellness-center", year: "", title: "Holistic Wellness Center", desc: "Integrated physiotherapy, yoga, and mental health counseling into daily routines." },
+  { id: "excellence-award", year: "", title: "Award of Excellence", desc: "Recognized as the premier senior care facility in West Bengal for outstanding service." }
 ];
 
 export const Timeline = () => {
@@ -26,7 +26,7 @@ export const Timeline = () => {
               const isEven = i % 2 === 0;
               return (
                 <motion.div 
-                  key={item.year}
+                  key={item.id}
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: "-100px" }}
@@ -36,7 +36,7 @@ export const Timeline = () => {
                   {/* Timeline Content */}
                   <div className="w-full md:w-1/2 p-4 md:px-12">
                     <div className="bg-surface p-6 md:p-8 rounded-3xl shadow-soft border border-border hover:border-primary-200 transition-colors">
-                      <span className="text-secondary-500 font-bold text-xl mb-2 block">{item.year}</span>
+                      {item.year && <span className="text-secondary-500 font-bold text-xl mb-2 block">{item.year}</span>}
                       <h4 className="text-2xl font-serif font-bold text-foreground mb-3">{item.title}</h4>
                       <p className="text-foreground-muted font-light leading-relaxed">{item.desc}</p>
                     </div>
